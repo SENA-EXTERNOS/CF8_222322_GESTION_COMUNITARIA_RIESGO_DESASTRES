@@ -1,14 +1,8 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno
-  //(icono="fas fa-tasks" titulo="Actividad didáctica")
+  BannerInterno(icono="fas fa-tasks" titulo="Actividad didáctica")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
-        .titulo-principal__numero
-          span
-            i.fas.fa-info
-        h1 Actividad didáctica
 
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
@@ -17,8 +11,11 @@
             img(src="@/assets/curso/temas/img-actividad-didactica.png", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-primario
-          h2 Completar la frase
-        p.mb-4 De acuerdo con los temas vistos en el componente formativo complete la respuesta.
+          h2 Gestión y medidas de reducción de riesgos de desastres
+        p Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo.
+          br
+          br
+          |De acuerdo con la definición planteada, digite correctamente en los campos vacíos, la palabra o términos que completarían el sentido real de cada proposición.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

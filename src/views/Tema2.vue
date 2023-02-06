@@ -22,7 +22,13 @@
                 figure
                   img(src="@/assets/curso/temas/img-fondo-der-tarj1-tema1.png").img-fondo-der-tarj1-tema1
               .col-lg-4
-                p.text-tarj1-color.p-3 Para desarrollar la gestión y ejecutar medidas de reducción de riesgo de desastres se requiere la selección de herramientas de planificación. Algunos de estos serán descritos en este apartado.
+                p.text-tarj1-color.p-3 Para desarrollar la gestión y ejecutar medidas de reducción de riesgo de desastres, se requiere la selección de herramientas para la planificación.
+                  br
+                  br
+                  |Esta selección habrá de cumplir con criterios y mecanismos establecidos, que aseguren la efectividad, la pertinencia y la oportunidad en los procesos.
+                  br
+                  br
+                  |Una vez reconocidos los instrumentos de planificación, le invitamos a ver en el siguiente video, elementos a considerar sobre los escenarios de riesgo.
               
             .col-lg-2
                 figure
@@ -49,7 +55,7 @@
       br
       br
       
-      p En relación con los escenarios de riesgo, es importante identificar las metodologías de caracterización y priorización, tal como se presenta a continuación:
+      p En relación con los escenarios de riesgo, es fundamental la identificación de las metodologías de caracterización y priorización, tal como se presenta a continuación:
       
       figure
           img(src="@/assets/curso/temas/img-izq-tema2.png", alt="alt").img-izq-tema2
@@ -78,8 +84,18 @@
             .col-lg-4
               figure(data-aos="zoom-in")
                 img(src="@/assets/curso/temas/img-acordeon1-tema2.png", alt="alt").img400.m-auto
-
-    p De acuerdo con la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD), en su publicación <em>Guía metodológica para la formulación y actualización de planes municipales de gestión del riesgo de desastres</em> se articulan seis pasos fundamentales que se deben de tener en cuenta al momento de integrar los procesos de gestión del riesgo en la planificación territorial (Unidad Nacional para la Gestión del Riesgo de Desastres, 2021):     
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .bloque-derecha
+          .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+            .bloque-texto-g__img(
+              :style="{'background-image':`url(${require('@/assets/curso/temas/c/c2.jpg')})`}"
+            )
+            .bloque-texto-g__texto.p-4
+              p.mb-0 De acuerdo con la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD), en su publicación Guía metodológica para la formulación y actualización de planes municipales de gestión del riesgo de desastres, se articulan seis pasos fundamentales que se deben de tener en cuenta al momento de integrar los procesos de gestión del riesgo, en la planificación territorial (Unidad Nacional para la Gestión del Riesgo de Desastres, 2021). 
+                br
+                br
+                |Estos seis pasos son:
     
 
     .row.container.tarjeta.tarjeta--blanca.p-2.p-md-3
@@ -102,7 +118,7 @@
 
               p(numero="6" titulo="Sexto paso") Identificar y caracterizar los escenarios de riesgo. Se identifican y analizan los escenarios de riesgo, los cuales dan una visión aproximada de los efectos de una amenaza mediante la definición de criterios de frecuencia y magnitud.
 
-        p En lo que se refiere al tercer paso, en la siguiente infografía se indican nueve preguntas que permiten realizar el autodiagnóstico.
+        p En lo que se refiere al tercer paso, que tiene que ver con el desarrollo del autodiagnóstico, se presentan nueve preguntas que orientan la formulación del mismo: 
 
     br
     br
@@ -153,185 +169,181 @@
               //.h5.mb-2 titulo
               p ¿El municipio cuenta con la participación activa de la comunidad y del sector privado en la gestión del riesgo de desastres?
         
-        p.txt-inf-pto-caliente-tema2 En lo relacionado con el paso 6, se describen a continuación ejemplos de escenarios de riesgo a partir de algunos criterios definidos. 
-          br
-          | Fuente: (Unidad Nacional para la Gestión del Riesgo de Desastres, 2021).
+        p.txt-inf-pto-caliente-tema2 En lo relacionado con el paso 6, identificación y caracterización de escenarios de riesgo, se describen a continuación ejemplos de escenarios de riesgo, a partir de algunos criterios definidos:
 
 
     br
     br
     br
 
-    .row.container.tarjeta.tarjeta--blanca.p-2.p-md-3
+    .tarjeta.p-4(style="background-color: #f6f6f6")
+      SlyderF(columnas="col-lg-6 col-xl-4").slyder-100 
+        .tarjeta.p-4(style="background-color: #c4e4e1").h-100
+          .row.justify-content-center.mb-3
+            .col-8
+              img(data-aos="flip-left")(src='@/assets/curso/temas/img1-carr-tarj-tema2.png' alt='AvatarTop')
+          h4.text-center Escenarios de riesgo por fenómeno amenazante
+          ul.lista-ul
+            li 
+              i.lista-ul__vineta
+              | Inundaciones
+            li 
+              i.lista-ul__vineta
+              | Sismos
+            li 
+              i.lista-ul__vineta
+              | Incendios estructurales
+            li 
+              i.lista-ul__vineta
+              | Avenidas torrenciales
+          
+          p.texto-invisible Lorem ipsum dolor sit amet consectetur adipisicing elit.
 
-        .row.fondo-tarj-conect-tema1
-            SlyderF(columnas="col-lg-6 col-xl-4").bloque-slider-tarj-tema2  
-              .tarjeta.color-fondo-tarj-carr-tema2.p-4
-                .row.justify-content-center.mb-3
-                  .col-8
-                    img(data-aos="flip-left")(src='@/assets/curso/temas/img1-carr-tarj-tema2.png' alt='AvatarTop')
-                h4.text-center Escenarios de riesgo por fenómeno amenazante
-                ul.lista-ul
-                  li 
-                    i.lista-ul__vineta
-                    | Inundaciones
-                  li 
-                    i.lista-ul__vineta
-                    | Sismos
-                  li 
-                    i.lista-ul__vineta
-                    | Incendios estructurales
-                  li 
-                    i.lista-ul__vineta
-                    | Avenidas torrenciales
-                
-                p.texto-invisible Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        .tarjeta.p-4(style="background-color: #c4e4e1").h-100
+          .row.justify-content-center.mb-3
+            .col-8
+              img(data-aos="flip-left")(src='@/assets/curso/temas/img2-carr-tarj-tema2.png' alt='AvatarTop')
+          h4.text-center Escenarios de riesgo por tipo de elemento o bien expuesto
+          ul.lista-ul
+            li 
+              i.lista-ul__vineta
+              | Puentes
+            li 
+              i.lista-ul__vineta
+              | Cultivos
+            li 
+              i.lista-ul__vineta
+              | Viviendas
+            li 
+              i.lista-ul__vineta
+              | Infraestructura esencial
+              
+          p.texto-invisible Lorem ipsum dolor sit 
 
-              .tarjeta.color-fondo-tarj-carr-tema2.p-4
-                .row.justify-content-center.mb-3
-                  .col-8
-                    img(data-aos="flip-left")(src='@/assets/curso/temas/img2-carr-tarj-tema2.png' alt='AvatarTop')
-                h4.text-center Escenarios de riesgo por tipo de elemento o bien expuesto
-                ul.lista-ul
-                  li 
-                    i.lista-ul__vineta
-                    | Puentes
-                  li 
-                    i.lista-ul__vineta
-                    | Cultivos
-                  li 
-                    i.lista-ul__vineta
-                    | Viviendas
-                  li 
-                    i.lista-ul__vineta
-                    | Infraestructura esencial
-                    
-                p.texto-invisible Lorem ipsum dolor sit 
+        .tarjeta.p-4(style="background-color: #c4e4e1").h-100
+          .row.justify-content-center.mb-3
+            .col-8
+              img(data-aos="flip-left")(src='@/assets/curso/temas/img3-carr-tarj-tema2.png' alt='AvatarTop')
+          h4.text-center Escenarios de riesgo por tipos de daños
+          ul.lista-ul
+            li 
+              i.lista-ul__vineta
+              | Heridos
+            li 
+              i.lista-ul__vineta
+              | Trauma psicológico
+            li 
+              i.lista-ul__vineta
+              | Contaminación de ecosistemas
+            li 
+              i.lista-ul__vineta
+              | Muertes
+          
+          p.texto-invisible Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis rem 
 
-              .tarjeta.color-fondo-tarj-carr-tema2.p-4
-                .row.justify-content-center.mb-3
-                  .col-8
-                    img(data-aos="flip-left")(src='@/assets/curso/temas/img3-carr-tarj-tema2.png' alt='AvatarTop')
-                h4.text-center Escenarios de riesgo por tipos de daños
-                ul.lista-ul
-                  li 
-                    i.lista-ul__vineta
-                    | Heridos
-                  li 
-                    i.lista-ul__vineta
-                    | Trauma psicológico
-                  li 
-                    i.lista-ul__vineta
-                    | Contaminación de ecosistemas
-                  li 
-                    i.lista-ul__vineta
-                    | Muertes
-                
-                p.texto-invisible Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis rem 
+        .tarjeta.p-4(style="background-color: #c4e4e1").h-100
+          .row.justify-content-center.mb-3
+            .col-8
+              img(data-aos="flip-left")(src='@/assets/curso/temas/img4-carr-tarj-tema2.png' alt='AvatarTop')
+          h4.text-center Escenarios de riesgo por grupo social
+          ul.lista-ul
+            li 
+              i.lista-ul__vineta
+              | Niños y niñas
+            li 
+              i.lista-ul__vineta
+              | Adultos mayores
+            li 
+              i.lista-ul__vineta
+              | Mujeres cabeza de familia
+            li 
+              i.lista-ul__vineta
+              | Indígenas
+          p.texto-invisible Lorem ipsum dolor sit amet consectetur adipisicing elit.adipisicing elit.
 
-              .tarjeta.color-fondo-tarj-carr-tema2.p-4
-                .row.justify-content-center.mb-3
-                  .col-8
-                    img(data-aos="flip-left")(src='@/assets/curso/temas/img4-carr-tarj-tema2.png' alt='AvatarTop')
-                h4.text-center Escenarios de riesgo por grupo social
-                ul.lista-ul
-                  li 
-                    i.lista-ul__vineta
-                    | Niños y niñas
-                  li 
-                    i.lista-ul__vineta
-                    | Adultos mayores
-                  li 
-                    i.lista-ul__vineta
-                    | Mujeres cabeza de familia
-                  li 
-                    i.lista-ul__vineta
-                    | Indígenas
-                p.texto-invisible Lorem ipsum dolor sit amet consectetur adipisicing elit.adipisicing elit.
-
-              .tarjeta.color-fondo-tarj-carr-tema2.p-4
-                .row.justify-content-center.mb-3
-                  .col-8
-                    img(data-aos="flip-left")(src='@/assets/curso/temas/img5-carr-tarj-tema2.png' alt='AvatarTop')
-                h4.text-center Escenarios de riesgo por actividades económicas
-                ul.lista-ul
-                  li 
-                    i.lista-ul__vineta
-                    | Minería
-                  li 
-                    i.lista-ul__vineta
-                    | Transporte
-                  li 
-                    i.lista-ul__vineta
-                    | Industria química
+        .tarjeta.p-4(style="background-color: #c4e4e1").h-100
+          .row.justify-content-center.mb-3
+            .col-8
+              img(data-aos="flip-left")(src='@/assets/curso/temas/img5-carr-tarj-tema2.png' alt='AvatarTop')
+          h4.text-center Escenarios de riesgo por actividades económicas
+          ul.lista-ul
+            li 
+              i.lista-ul__vineta
+              | Minería
+            li 
+              i.lista-ul__vineta
+              | Transporte
+            li 
+              i.lista-ul__vineta
+              | Industria química
 
 
-              .tarjeta.color-fondo-tarj-carr-tema2.p-4
-                .row.justify-content-center.mb-3
-                  .col-8
-                    img(data-aos="flip-left")(src='@/assets/curso/temas/img6-carr-tarj-tema2.png' alt='AvatarTop')
-                h4.text-center Escenarios de riesgo por actividades sociales
-                ul.lista-ul
-                  li 
-                    i.lista-ul__vineta
-                    | Corralejas
-                  li 
-                    i.lista-ul__vineta
-                    | Peregrinaciones multitudinarias
+        .tarjeta.p-4(style="background-color: #c4e4e1").h-100
+          .row.justify-content-center.mb-3
+            .col-8
+              img(data-aos="flip-left")(src='@/assets/curso/temas/img6-carr-tarj-tema2.png' alt='AvatarTop')
+          h4.text-center Escenarios de riesgo por actividades sociales
+          ul.lista-ul
+            li 
+              i.lista-ul__vineta
+              | Corralejas
+            li 
+              i.lista-ul__vineta
+              | Peregrinaciones multitudinarias
 
-              .tarjeta.color-fondo-tarj-carr-tema2.p-4
-                .row.justify-content-center.mb-3
-                  .col-8
-                    img(data-aos="flip-left")(src='@/assets/curso/temas/img7-carr-tarj-tema2.png' alt='AvatarTop')
-                h4.text-center Escenarios de riesgo por actividades institucionales
-                ul.lista-ul
-                  li 
-                    i.lista-ul__vineta
-                    | Instituciones educativos
-                  li 
-                    i.lista-ul__vineta
-                    | Unidades militares
+        .tarjeta.p-4(style="background-color: #c4e4e1").h-100
+          .row.justify-content-center.mb-3
+            .col-8
+              img(data-aos="flip-left")(src='@/assets/curso/temas/img7-carr-tarj-tema2.png' alt='AvatarTop')
+          h4.text-center Escenarios de riesgo por actividades institucionales
+          ul.lista-ul
+            li 
+              i.lista-ul__vineta
+              | Instituciones educativos
+            li 
+              i.lista-ul__vineta
+              | Unidades militares
 
-                
-              .tarjeta.color-fondo-tarj-carr-tema2.p-4
-                .row.justify-content-center.mb-3
-                  .col-8
-                    img(data-aos="flip-left")(src='@/assets/curso/temas/img8-carr-tarj-tema2.png' alt='AvatarTop')
-                h4.text-center Escenarios de riesgo por operaciones de grandes obras
-                ul.lista-ul
-                  li 
-                    i.lista-ul__vineta
-                    | Embalses
-                  li 
-                    i.lista-ul__vineta
-                    | Túneles
-                  li 
-                    i.lista-ul__vineta
-                    | Líneas de flujo de hidrocarburos
+          
+        .tarjeta.p-4(style="background-color: #c4e4e1").h-100
+          .row.justify-content-center.mb-3
+            .col-8
+              img(data-aos="flip-left")(src='@/assets/curso/temas/img8-carr-tarj-tema2.png' alt='AvatarTop')
+          h4.text-center Escenarios de riesgo por operaciones de grandes obras
+          ul.lista-ul
+            li 
+              i.lista-ul__vineta
+              | Embalses
+            li 
+              i.lista-ul__vineta
+              | Túneles
+            li 
+              i.lista-ul__vineta
+              | Líneas de flujo de hidrocarburos
 
-              .tarjeta.color-fondo-tarj-carr-tema2.p-4
-                .row.justify-content-center.mb-3
-                  .col-8
-                    img(data-aos="flip-left")(src='@/assets/curso/temas/img9-carr-tarj-tema2.png' alt='AvatarTop')
-                h4.text-center Escenarios de riesgo de origen biológico
-                ul.lista-ul
-                  li 
-                    i.lista-ul__vineta
-                    | Sars covid-19
-                  li 
-                    i.lista-ul__vineta
-                    | Túneles
-                  li 
-                    i.lista-ul__vineta
-                    | Zika
+        .tarjeta.p-4(style="background-color: #c4e4e1").h-100
+          .row.justify-content-center.mb-3
+            .col-8
+              img(data-aos="flip-left")(src='@/assets/curso/temas/img9-carr-tarj-tema2.png' alt='AvatarTop')
+          h4.text-center Escenarios de riesgo de origen biológico
+          ul.lista-ul
+            li 
+              i.lista-ul__vineta
+              | Sars covid-19
+            li 
+              i.lista-ul__vineta
+              | Túneles
+            li 
+              i.lista-ul__vineta
+              | Zika
 
-                  li 
-                    i.lista-ul__vineta
-                    | Chikungunya
+            li 
+              i.lista-ul__vineta
+              | Chikungunya
 
-                  li 
-                    i.lista-ul__vineta
-                    | Entre otros
+            li 
+              i.lista-ul__vineta
+              | Entre otros
 
 
     br   

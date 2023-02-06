@@ -35,9 +35,11 @@
 
     .row.container.tarjeta.tarjeta--blanca.p-2.p-md-3
 
-        #medidas-correctivas
-        .titulo-segundo.color-primario
-          h2 Medidas correctivas
+        ol.lista-ol--cuadro
+          li
+            .lista-ol--cuadro__vineta
+              span A
+            h4 Medidas correctivas
         
         .bloque-medidas-correctivas
           .row.fondo-tarj-medidas-corr
@@ -47,7 +49,8 @@
                     img(src="@/assets/curso/temas/img-medidas-correctivas-tema3.png").img-medidas-correctivas-tema3
 
             .col-lg-7
-                p.txt-tarj-medidas-corr.p-4 Las medidas de reducción del riesgo correctivas (perspectivas, estructurales y no estructurales) se centran en minimizar los niveles de riesgos ya existentes en el espacio geográfico mediante la adopción de actividades de intervención sobre la amenaza. Esta puede deberse a factores naturales, antrópicos, tecnológicos y socionaturales; mientras un factor de riesgo, como la vulnerabilidad ―sobre los bienes y elementos expuestos― se determina por factores físicos, ambientales, económicos y sociales. 
+              div.bg-white.m-3
+                p.p-4 Las medidas de reducción del riesgo correctivas (perspectivas, estructurales y no estructurales) se centran en minimizar los niveles de riesgos ya existentes en el espacio geográfico mediante la adopción de actividades de intervención sobre la amenaza. Esta puede deberse a factores naturales, antrópicos, tecnológicos y socionaturales; mientras un factor de riesgo, como la vulnerabilidad ―sobre los bienes y elementos expuestos― se determina por factores físicos, ambientales, económicos y sociales. 
           
     br
     br
@@ -140,11 +143,13 @@
 
     br
 
-    .row.container.tarjeta.tarjeta--blanca.p-2.p-md-3
+    .row.container.tarjeta.tarjeta--blanca.p-2.p-md-3.mb-5
 
-        #medidas-prospectivas
-        .titulo-segundo.color-primario
-          h2 Medidas prospectivas
+        ol.lista-ol--cuadro
+          li
+            .lista-ol--cuadro__vineta
+              span B
+            h4 Medidas prospectivas
         
         .row.fondo-medidas-correctivas.bloque-medidas-correctivas
           .col-lg-7
@@ -154,39 +159,27 @@
   
             figure
                 img(data-aos="zoom-in")(src="@/assets/curso/temas/img-medidas-correctivas.png", alt="alt").img-medidas-correctivas
-
-            
-    br        
-    br        
-    br
-
-    .row.container.tarjeta.tarjeta--blanca.p-2.p-md-3
-
+    TabsC.color-acento-contenido.mb-5
+      .py-4.py-md-5(titulo="Primera parte")
+        .row.justify-content-center
+          .col-md-4.mb-4.mb-md-0: img(src='@/assets/curso/temas/c/c3.jpg', alt='')
+          .col-md-6
+            h4 Primera parte
+            p Las medidas prospectivas de reducción del riesgo se diseñan con el objetivo de evitar el surgimiento de nuevas condiciones de riesgo, es decir, elaboran acciones de prevención para impedir que los bienes o elementos que se encuentran expuestos sean afectados por eventos peligrosos. La ejecución de este tipo de medidas busca evitar la creación de medidas correctivas. 
+      .py-4.py-md-5(titulo="Segunda  parte")
+        .row.justify-content-center
+          .col-md-4.mb-4.mb-md-0: img(src='@/assets/curso/temas/c/c4.jpg', alt='')
+          .col-md-6
+            h4 Segunda  parte
+            p Las medidas prospectivas se diseñan y ejecutan mediante la planificación territorial con énfasis en la sostenibilidad ambiental y un ordenamiento territorial seguro. 
+      .py-4.py-md-5(titulo="Tercera  parte")
+        .row.justify-content-center
+          .col-md-4.mb-4.mb-md-0: img(src='@/assets/curso/temas/c/c5.jpg', alt='')
+          .col-md-6
+            h4 Tercera  parte
+            p Para la prevención del riesgo se cuenta con herramientas fundamentales diseñadas y contempladas desde la planificación territorial, sin dejar de lado temas como la inversión pública, la regulación y especificaciones técnicas de los estudios de prefactibilidad cuyo incidencia se da en la planificación sectorial, estos instrumentos de prevención cuentan con el objetivo de que aspectos como los usos del suelo y la ocupación de esta se realice de manera reglamentada que garantice un desarrollo seguro y sostenible [sic] (Unidad Nacional para la Gestión del Riesgo de Desastres, 2013). 
+    p.mb-5(data-aos='fade-right') Las medias prospectivas se componen de dos líneas de acción:        
     
-        .row.mb-5
-
-            .col-md.tarjeta.tarj1-indiv-tema3.text-white.p-5
-              .row.justify-content-center.mb-4
-
-              h4.text-center Primera parte
-              p Las medidas prospectivas de reducción del riesgo se diseñan con el objetivo de evitar el surgimiento de nuevas condiciones de riesgo, es decir, elaboran acciones de prevención para impedir que los bienes o elementos que se encuentran expuestos sean afectados por eventos peligrosos. La ejecución de este tipo de medidas busca evitar la creación de medidas correctivas. 
-            
-            .col-md.tarjeta.tarj2-indiv-tema3.text-white.p-5
-              .row.justify-content-center.mb-4
-                
-              h4.text-center Segunda parte
-              p Las medidas prospectivas se diseñan y ejecutan mediante la planificación territorial con énfasis en la sostenibilidad ambiental y un ordenamiento territorial seguro. 
-
-            .col-md.tarjeta.tarj3-indiv-tema3.text-white.p-5
-              .row.justify-content-center.mb-4
-                
-              h4.text-center Tercera parte
-              p Para la prevención del riesgo se cuenta con herramientas fundamentales diseñadas y contempladas desde la planificación territorial, sin dejar de lado temas como la inversión pública, la regulación y especificaciones técnicas de los estudios de prefactibilidad cuyo incidencia se da en la planificación sectorial, estos instrumentos de prevención cuentan con el objetivo de que aspectos como los usos del suelo y la ocupación de esta se realice de manera reglamentada que garantice un desarrollo seguro y sostenible [sic] (Unidad Nacional para la Gestión del Riesgo de Desastres, 2013). 
-
-
-    br
-    br
-    br
 
     .row.container.tarjeta.tarjeta--blanca.p-2.p-md-3
 
@@ -209,10 +202,7 @@
             h4.text-center Segunda línea de acción
             p.text-center Gestión del riesgo de desastres asociado a fenómenos hidrometeorológicos, hidroclimáticos extremos, variabilidad climática y cambio climático.
 
-    br
-    br
-    br
-
+    p.mb-5(data-aos='fade-right') En relación con la primera línea de acción, a continuación, se enuncian los instrumentos de planificación:
     .row.container.tarjeta.tarjeta--blanca.p-2.p-md-3.fondo-pto-caliente-tema3
         
         h4.tit-tarj-pto-caliente-tema3 Primera línea de acción
@@ -226,7 +216,7 @@
 
           .tarjeta.fondo-tarj-pto-caliente-tema3.p-3(x="15%" y="80%" numero="1")
             //.h5.mb-2 titulo
-            p Plan Nacional de Gestión del Riesgo de Desastres
+            p Plan Nacional de Gestión del Riesgo de Desastres.
 
           .tarjeta.fondo-tarj-pto-caliente-tema3.p-3(x="33%" y="80%" numero="2")
             //.h5.mb-2 titulo
@@ -248,16 +238,17 @@
             
 
     br
-    separador
 
     br
 
 
     .row.container.tarjeta.tarjeta--blanca.p-2.p-md-3
             
-        #medidas-estructurales-y-no-estructurales
-        .titulo-segundo.color-primario
-          h2 Medidas estructurales y no estructurales
+        ol.lista-ol--cuadro
+          li
+            .lista-ol--cuadro__vineta
+              span C
+            h4 Medidas estructurales y no estructurales
 
         .row.fondo-tarj-ed-estruc-tema3
           .col-lg-8
@@ -275,13 +266,13 @@
     br
 
     .row.container.tarjeta.tarjeta--blanca.p-2.p-md-3
-
-        .row
-          .col-lg-10.color-tarj-final
-            p.p-4 Hemos llegado al final de este componente formativo. Recuerde explorar los demás recursos que se encuentran disponibles; para ello diríjase al menú principal que contiene la síntesis, la actividad didáctica, material complementario, entre otros elementos.
+        .row.justify-content-center.mb-5
+          .col-lg-10
+            .cajon.color-primario.p-4.mb-4(style="background-color: #dceeec")
+              p.mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
         
-        figure
-            img(src='@/assets/curso/temas/img-inf-der-tema3.png', alt='Texto que describa la imagen').img-inf-der-tema3
+        //- figure
+        //-     img(src='@/assets/curso/temas/img-inf-der-tema3.png', alt='Texto que describa la imagen').img-inf-der-tema3
   
             
 </template>

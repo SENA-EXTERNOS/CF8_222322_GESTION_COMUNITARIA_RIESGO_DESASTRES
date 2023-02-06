@@ -23,7 +23,7 @@
                 figure
                   img(src="@/assets/curso/temas/img-fondo-der-tarj1-tema1.png").img-fondo-der-tarj1-tema1
               .col-lg-4
-                p.text-tarj1-color.p-3 Para desarrollar la gestión y ejecutar medidas de reducción de riesgo de desastres se requiere la selección de herramientas de planificación. Algunos de estos serán descritos en este apartado.
+                p.text-tarj1-color.p-3 Para desarrollar la gestión y ejecutar medidas de reducción de riesgo de desastres, se requiere de la selección de herramientas para la planificación. Tenga en cuenta:
               
             .col-lg-2
                 figure
@@ -51,7 +51,10 @@
               figure
                   img(src="@/assets/curso/temas/img-PNGRD-tema1.png").img-PNGRD-tema1
 
-              p.txt-PNGRD-tema1 La hoja de ruta principal es el Plan Nacional de Gestión de Riesgo de Desastre de Colombia (PNGRD), el cual convoca a los diversos actores del SNGRD a ejecutar con eficacia las acciones necesarias para cumplir con el objetivo de la gestión del riesgo. El PNGRD se instituyó a través del Decreto 308 de 2016 y fue actualizado mediante el Decreto 1478 del 3 de agosto de 2022 (Unidad Nacional de Gestión del Riesgo de Desastres - UNGRD, 2022). Tiene un objetivo general y cinco objetivos específicos:
+              p.txt-PNGRD-tema1.mb-5.p-1 El documento que marca cómo deben hacerse los procedimientos es el Plan Nacional de Gestión de Riesgo de Desastre de Colombia (PNGRD), el cual convoca a los diversos actores del SNGRD a ejecutar, de forma eficaz, las acciones necesarias para cumplir con el objetivo de la gestión del riesgo. El PNGRD se instituyó a través del Decreto 308 de 2016 y fue actualizado mediante el Decreto 1478 del 3 de agosto de 2022 (Unidad Nacional de Gestión del Riesgo de Desastres - UNGRD, 2022).
+                br
+                br
+                |Este documento, presenta cinco objetivos claves:
 
 
 
@@ -59,49 +62,47 @@
     br
     br
 
-    .row.container.justify-content-around.align-items-center
-      
-      .row.fondo-tarj-conect-tema1
-        SlyderF(columnas="col-lg-6 col-xl-4").bloque-tarj-conect-tema1
-          .tarjeta.color-fondo-tarj-tema1.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(data-aos="flip-left")(src='@/assets/curso/temas/img1-tarj-conect-tema1.png' alt='AvatarTop')
-            //h2.text-center FIRST
-            p.text-center Mejorar el proceso de conocimiento del riesgo de desastres en Colombia.
-            p.texto-invisible Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    .tarjeta.p-5(style="background-color: #f6f6f6 ")
+      SlyderF(columnas="col-lg-6 col-xl-4").slyder-100
+        .tarjeta.p-4(style="background-color: #bededb")
+          .row.justify-content-center.mb-3
+            .col-8
+              img(data-aos="flip-left")(src='@/assets/curso/temas/img1-tarj-conect-tema1.png' alt='AvatarTop')
+          //h2.text-center FIRST
+          p.text-center #[b Mejorar] el proceso de conocimiento del riesgo de desastres en Colombia.
+          p.texto-invisible Lorem ipsum dolor sit amet consectetur adipisicing elit.
 
-          .tarjeta.color-fondo-tarj-tema1.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(data-aos="flip-left")(src='@/assets/curso/temas/img2-tarj-conect-tema1.png' alt='AvatarTop')
-            //h2.text-center 2
-            p.text-center Minimizar la materialización de condiciones de riesgo futuras en la planeación y desarrollo territorial, sectorial y ambiental sostenible.
-            p.texto-invisible Lorem ipsum dolor sit 
-          .tarjeta.color-fondo-tarj-tema1.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(data-aos="flip-left")(src='@/assets/curso/temas/img3-tarj-conect-tema1.png' alt='AvatarTop')
-            //h2.text-center 3
-            p.text-center Reducir las condiciones de riesgo de desastres existentes.
-            p.texto-invisible Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis rem 
+        .tarjeta.p-4(style="background-color: #bededb")
+          .row.justify-content-center.mb-3
+            .col-8
+              img(data-aos="flip-left")(src='@/assets/curso/temas/img2-tarj-conect-tema1.png' alt='AvatarTop')
+          //h2.text-center 2
+          p.text-center #[b Minimizar] la materialización de condiciones de riesgo futuras en la planeación y desarrollo territorial, sectorial y ambiental sostenible.
+          p.texto-invisible Lorem ipsum dolor sit 
+        .tarjeta.p-4(style="background-color: #bededb")
+          .row.justify-content-center.mb-3
+            .col-8
+              img(data-aos="flip-left")(src='@/assets/curso/temas/img3-tarj-conect-tema1.png' alt='AvatarTop')
+          //h2.text-center 3
+          p.text-center #[b Reducir] las condiciones de riesgo de desastres existentes.
+          p.texto-invisible Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis rem 
 
-          .tarjeta.color-fondo-tarj-tema1.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(data-aos="flip-left")(src='@/assets/curso/temas/img4-tarj-conect-tema1.png' alt='AvatarTop')
-            //h2.text-center 4
-            p.text-center Garantizar un oportuno, eficaz y adecuado manejo de desastres. 
-            p.texto-invisible Lorem ipsum dolor sit amet consectetur adipisicing elit.adipisicing elit.
+        .tarjeta.p-4(style="background-color: #bededb")
+          .row.justify-content-center.mb-3
+            .col-8
+              img(data-aos="flip-left")(src='@/assets/curso/temas/img4-tarj-conect-tema1.png' alt='AvatarTop')
+          //h2.text-center 4
+          p.text-center #[b Garantizar] un oportuno, eficaz y adecuado manejo de desastres. 
+          p.texto-invisible Lorem ipsum dolor sit amet consectetur adipisicing elit.adipisicing elit.
 
-          .tarjeta.color-fondo-tarj-tema1.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(data-aos="flip-left")(src='@/assets/curso/temas/img5-tarj-conect-tema1.png' alt='AvatarTop')
-            //h2.text-center 5
-            p.text-center Fortalecer la gobernanza, educación y comunicación social en la gestión del riesgo con enfoque diferencial, de diversidad cultural y de género.
+        .tarjeta.p-4(style="background-color: #bededb")
+          .row.justify-content-center.mb-3
+            .col-8
+              img(data-aos="flip-left")(src='@/assets/curso/temas/img5-tarj-conect-tema1.png' alt='AvatarTop')
+          //h2.text-center 5
+          p.text-center #[b Fortalecer] la gobernanza, educación y comunicación social en la gestión del riesgo con enfoque diferencial, de diversidad cultural y de género.
 
-      p.texto-inf-slider1-tema1 Los objetivos señalados se encuentran directamente enfocados a la minimización gradual y constante del riesgo de desastres y a la reducción de las pérdidas y los daños generados por la materialización de un evento peligroso con el fin de contribuir con las cuatro prioridades establecidas en el marco de Sendai 2015-2030:
+    p.texto-inf-slider1-tema1 Los objetivos señalados se encuentran directamente enfocados en la minimización gradual y constante del riesgo de desastres y a la reducción de las pérdidas y los daños generados por la materialización de un evento peligroso, con el fin de contribuir con las cuatro #[b prioridades establecidas en el marco de Sendai 2015-2030:]
 
     br
     br
@@ -129,7 +130,7 @@
                   img(data-aos="flip-left")(src='@/assets/curso/temas/img2-tarj-avat-tema1.png', alt='Texto que describa la imagen').img-tarj-avat-tema1
             .texto-tarj-avatar-tema1
               h3.text-center Segundo objetivo
-              p.text-small Fortalecer la gestión del riesgo de desastres para manejar mejor el riesgo de desastres.
+              p.text-small Fortalecer la gestión del riesgo de desastres, para manejar mejor el riesgo de los mismos.
 
         .col-sm-6.col-lg-3.mb-4.mb-sm-0
           .tarjeta.fondo-tarj-avatar-tema1.p-4
@@ -139,7 +140,7 @@
                   img(data-aos="flip-left")(src='@/assets/curso/temas/img3-tarj-avat-tema1.png', alt='Texto que describa la imagen').img-tarj-avat-tema1
             .texto-tarj-avatar-tema1
               h3.text-center Tercer objetivo
-              p.text-small Invertir en la reducción del riesgo de desastres para la resiliencia.
+              p.text-small Mejorar la preparación frente a los desastres, para una respuesta eficaz, y para obrar mejor en la recuperación, la rehabilitación y la reconstrucción.
 
         .col-sm-6.col-lg-3
           .tarjeta.fondo-tarj-avatar-tema1.p-4
@@ -157,16 +158,13 @@
     br
     br
 
-    .row.container.justify-content-around.align-items-center
+    .row.container.justify-content-around.align-items-center.mb-5
       .row
         .col-lg-10 
 
           .cajon.fondo-cajon-color-tema1.color-primario.p-4
-              p.txt-trazado-camino.p-2 Trazado el camino a seguir, los instrumentos de planificación se constituyen como la gestión tangible del riesgo de desastres, pues aumentan las opciones de hallar una solución a las problemáticas asociadas a los desastres: la pérdida de vidas humanas, de los medios productivos y de subsistencia, así como la afectación de los bienes estructurales, socioculturales y ambientales.
-
-    br
-    br
-    br
+              p.txt-trazado-camino.mb-0 Trazado el camino a seguir, los instrumentos de planificación, se constituyen como la gestión tangible del riesgo de desastres, debido a que aumentan las opciones para hallar una solución a las problemáticas asociadas a los desastres, como la pérdida de vidas humanas, de los medios productivos y de subsistencia y, además, la afectación de los bienes estructurales, socioculturales y ambientales.
+    p.mb-5(data-aos='fade-right') En relación con los instrumentos de planificación, tenga presente que:
 
     .row.container.justify-content-around.align-items-center
 
@@ -175,21 +173,21 @@
             
             .col-lg-8
               AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
-                .row(titulo="Instrumentos de planificación")
-                  .col-12
-                    p.texto-acordeon-tema1 Los instrumentos de planificación permiten consolidar un frente unido de los entes públicos, privados y comunitarios en una planificación adecuada y garantizada como es el desarrollo seguro y la sostenibilidad territorial.
 
-                .row(titulo="Articulación de estas herramientas con el Plan Nacional de Gestión del Riesgo de Desastres (PMGRD)")
+                .row(titulo="Consolidan y unifican criterios y acciones")
                   .col-12
-                    p.texto-acordeon-tema1 La articulación de estas herramientas con el Plan Nacional de Gestión del Riesgo de Desastres (PMGRD) permite la destinación segura y garantizada de los fondos y recursos económicos, el diseño y alcance de metas específicas, así como la caracterización real de los escenarios de riesgo a nivel nacional y la coordinación de actividades y acciones para gestionarlos de manera positiva. 
+                    p.texto-acordeon-tema1 Los instrumentos de planificación permiten consolidar un frente unido de los entes públicos, privados y comunitarios, en una planificación adecuada y garantizada, como son el desarrollo seguro y la sostenibilidad territorial.
 
-                .row(titulo="Estrategias")
+                .row(titulo="Favorecen el destino seguro de fondos y recursos")
                   .col-12
-                    p.texto-acordeon-tema1 Se habla entonces de estrategias integrales que vinculan las escalas territoriales y a los actores del sector público, privado y comunitario en la construcción y ejecución de una colección de procesos y componentes que tienen como finalidad mejorar la calidad de vida de las poblaciones, en especial las que se encuentran en estado de riesgo. El Plan Municipal para la Gestión del Riesgo de Desastres (PMGRD) se fundamenta como una de las herramientas más importantes del Consejo Municipal para la Gestión del Riesgo de Desastres (CMGRD).
+                    p.texto-acordeon-tema1 La articulación de estas herramientas con el Plan Nacional de Gestión del Riesgo de Desastres (PMGRD), permite que los fondos y los recursos económicos se destinen de manera segura. Además, gracias a esta unión, se pueden diseñar y alcanzar metas claras y concretas. Finalmente, lo anterior posibilita caracterizar los escenarios de riesgo que existen a nivel nacional y, por lo tanto, se pueden plantear actividades coordinadas y acciones, que permitan una gestión positiva de estos. 
 
-                .row(titulo="Componentes del PMGRD")
+                .row(titulo="Vinculan al territorio con la institucionalidad")
                   .col-12
-                    p.texto-acordeon-tema1  El PMGRD está constituido por un componente de caracterización de escenarios de riesgo y un componente programático. El primero se enfoca en la identificación y priorización de escenarios presentes y futuros que sirven como insumo para el segundo componente: la construcción de medidas de intervención enfocadas en los procesos de gestión del riesgo a nivel municipal. Este instrumento de planificación se posiciona como una agenda del desarrollo local dinámica que gestiona el primer proceso de la gestión del riesgo y las cualidades específicas del ambiente y el territorio para la formulación y diagnóstico de otros instrumentos de planificación territorial y del desarrollo como lo son los planes de ordenamiento territorial (POT).
+                    p.texto-acordeon-tema1  Se habla entonces de estrategias integrales que vinculan las escalas territoriales y a los actores del sector público, privado y comunitario en la construcción y ejecución de una colección de procesos y componentes que tienen como finalidad mejorar la calidad de vida de las poblaciones, en especial las que se encuentran en estado de riesgo. El Plan Municipal para la Gestión del Riesgo de Desastres (PMGRD) se fundamenta como una de las herramientas más importantes del Consejo Municipal para la Gestión del Riesgo de Desastres (CMGRD)
+                .row(titulo="Son hoja de ruta para el desarrollo local")
+                  .col-12
+                    p.texto-acordeon-tema1 El PMGRD contiene un componente en el que se caracterizan los escenarios de riesgo y otro en el cual se habla de lo programático. En el primer componente se identifican y se priorizan los escenarios, tanto presentes como futuros, los cuales son utilizados como un insumo para desarrollar el segundo componente. Este último tiene relación con la generación de medidas de intervención, las cuales se enfocan, principalmente, en los procesos de gestión de riesgo a nivel municipal. De acuerdo con lo anterior, este instrumento se usa como una hoja de ruta para el desarrollo local, la cual es dinámica y posibilita un proceso de gestión del riesgo adaptado a las características propias del ambiente y del territorio donde se va a implementar. Así, a partir de allí, se pueden generar diversos instrumentos de planeación territorial y de desarrollo, tales como los Planes de Ordenamiento Territorial (POT).
 
             .col-lg-4
               figure(data-aos="zoom-in")
@@ -202,11 +200,11 @@
         .row 
           .col-lg-10
               .cajon.fondo-cajon2-color-tema1.color-primario.p-4
-                  p Los POT se estipulan como un rango de visión a largo plazo mediante la consolidación de modelos de ocupación sostenibles que permitan el funcionamiento de los medios de subsistencia y la infraestructura sin crear condiciones de riesgo a futuro ni incrementar las ya existentes. Este instrumento se fundamenta en los siguientes marcos normativos: 
+                  p.mb-0 Los POT se estipulan como un rango de visión, planteado para un largo plazo, a través de la proyección de modelos o formas de ocupación de carácter sostenible, los cuales posibilitan el funcionamiento de los medios para la subsistencia y la infraestructura y, al mismo tiempo, evitan la creación de condiciones de riesgo futuras y no incrementan las que ya existen.
         
 
         .row.container.bloque-linea-temporal-tema1
-          
+            p.mb-5(data-aos='fade-right') A continuación, se muestran los marcos normativos en los que se fundamenta este instrumento:
             //h3 revisar con linea temporal original
             .linea-puntos-vert-tema1
             .row(titulo="1993" subtitulo="Ley 99 de 1993: hace referencia a la creación del Sistema Nacional Ambiental (SINA).")
@@ -255,15 +253,14 @@
     br
     br
 
-    .row.container.justify-content-around.align-items-center
+    .row.container.justify-content-around.align-items-center.mb-5
 
       .row 
         .col-lg-10.cajol-color-simple-tema1.p-4
-          p Siendo el reconocimiento territorial, específicamente del espacio geográfico, uno de los insumos fundamentales para el proceso de planeación social a nivel local, los planes de ordenamiento territorial: 
+          p El reconocimiento territorial y, especialmente, el del espacio geográfico, constituye uno de los elementos fundamentales que pueden utilizarse como insumos, durante el proceso de planeación social que se realiza de forma local, es decir, en los planes de ordenamiento territorial.
 
-    br
-    br
-    br
+    p.mb-5(data-aos='fade-right') Acerca de los POT, recuerde que:
+
 
     .row.container.justify-content-around.align-items-center
     
@@ -271,7 +268,8 @@
           SlyderA(tipo="b")
             .row
               .col-md-6.mb-4.mb-md-0
-                p.texto1-slider-simple-tema1 Se fundamentan en tres componentes: general, urbano y rural. Estos componentes diseñan la estrategia de distribución territorial de los usos del suelo y las actividades económicas asociadas, señalan las particularidades de los sistemas estructurantes al analizar las mejores opciones relacionadas con la infraestructura que soporta los servicios públicos y el correcto funcionamiento de los recursos naturales; es decir, aseguran la armonización e integración de la gestión del riesgo y el ordenamiento territorial municipal.
+                h4.text-white Su fundamento
+                p.texto1-slider-simple-tema1 Los POT tienen como fundamento los componentes urbano, rural y general. Estos componentes constituyen la estrategia de distribución territorial de los usos del suelo y de todas aquellass actividades económicas que se pueden asociar a esto. Así mismo, señalan las particularidades de los sistemas estructurantes a partir de un análisis de las mejores opciones relacionadas con la infraestructura de las redes de los servicios públicos y el correcto funcionamiento de los recursos naturales; es decir, aseguran la armonización e integración de la gestión del riesgo y el ordenamiento territorial de los municipios.
 
               .col-md-6
                 figure
@@ -281,7 +279,8 @@
             .row.justify-content-center.align-items-center.my-lg-4
 
               .col-md-6.mb-4.mb-md-0
-                p.texto2-slider-simple-tema1 El último instrumento de planificación es el Plan de Desarrollo Municipal (PDM) regido por la Ley 152 de 1994 y que se encarga de dirigir las medidas de intervención a nivel local. Funciona con base en tres componentes principales: diagnóstico, estratégico y el plan de inversión. El primero hace referencia al análisis y valoración de las características específicas del territorio y de la comunidad que lo ocupa, con base en estudios y planes ya desarrollados; el componente estratégico responde directamente al plan de gobierno vigente mediante la creación de acciones para su cumplimiento; finalmente, el plan de inversión esclarece las fuentes y fondos para financiar la ejecución del segundo componente. 
+                h4.text-white Intervención local
+                p.texto2-slider-simple-tema1 El último instrumento de planeación es el Plan de Desarrollo Municipal (PDM), el cual se rige por la Ley 152 de 1994 y es el encargado de la dirección de las medidas de intervención a nivel local. Funciona con base en tres componentes principales: diagnóstico, estratégico y el plan de inversión. El primero hace referencia al análisis y valoración de las características específicas del territorio y de la comunidad que lo ocupa, con base en estudios y planes ya desarrollados; el componente estratégico responde directamente al plan de gobierno vigente mediante la creación de acciones para su cumplimiento; finalmente, el plan de inversión esclarece las fuentes y fondos para financiar la ejecución del segundo componente. 
 
 
               .col-md-6
@@ -293,7 +292,8 @@
             .row.justify-content-center.align-items-center.my-lg-4
 
               .col-md-6.mb-4.mb-md-0
-                p.texto3-slider-simple-tema1 A nivel de escala territorial es posible concluir que los planes de desarrollo municipal (PDM) son el documento donde se plasman los medios para ejecutar las acciones y estrategias planteadas desde los demás instrumentos de planificación, incluido el Plan Nacional de Gestión del Riesgo de Desastres (PNGRD), debido a que hace uso de fondos a nivel nacional directamente en el espacio geográfico que rige. Hablando en términos de articulación e integración, se hace necesario fortalecer esta planificación territorial desde las capacidades administrativas, de modo que sea efectiva la materialización de los procesos de gestión del riesgo, conocimiento del riesgo, reducción del riesgo y manejo de desastres en las políticas, los objetivos y las medidas correctivas, prospectivas, estructurales y no estructurales, de tal manera que sea posible garantizar la efectividad en la ejecución de recursos.
+                h4.text-white Medios de ejecución de acciones y estrategias
+                p.texto3-slider-simple-tema1 A nivel de territorial es posible afirmar que los Planes de Desarrollo Municipal (PDM) son aquellos textos en donde se establece cuáles son los medios para la ejecución de acciones y estrategias planteadas desde los diferentes instrumentos de planeación, en donde se incluye el Plan Nacional de Gestión del Riesgo de Desastres (PNGRD), ya que se utilizan los fondos de nivel nacional de manera directa en el espacio geográfico regido por estos planes. Si se va a hablar de la integración y la articulación, se debe hacer un fortalecimiento de la planeación territorial, a través de la implementación de todas las capacidades administrativas con el objetivo de materializar los procesos de gestión del riesgo, conocimiento del riesgo, reducción del riesgo y manejo de desastres en las políticas, los objetivos y las medidas correctivas, prospectivas, estructurales y no estructurales, de tal manera que sea posible garantizar la efectividad en la ejecución de los recursos.
 
               .col-md-6
                 figure
@@ -304,7 +304,8 @@
             .row.justify-content-center.align-items-center.my-lg-4
 
               .col-md-6.mb-4.mb-md-0
-                p.texto4-slider-simple-tema1 De este modo, se cuenta también con el Plan Departamental de Gestión del Riesgo (PDGRD) donde se busca identificar, ejecutar y controlar las acciones que los entes territoriales hacen en términos de los procesos de gestión del riesgo, teniendo como base la caracterización del territorio, factores y escenarios de riesgo, y actores claves para la gestión del riesgo que orientan la implementación de la Estrategia Departamental para Respuesta.
+                h4.text-white A nivel departamental…
+                p.texto4-slider-simple-tema1 De este modo, se cuenta también con el Plan Departamental de Gestión del Riesgo (PDGRD) donde se busca identificar, ejecutar y controlar las acciones que los entes territoriales hacen en términos de los procesos de gestión del riesgo. Este plan requiere caracterizar el territorio, los factores, los escenarios de riesgo. Además, también necesita conocer cuáles son los actores cruciales para la gestión del riesgo, los cuales guían la implementación de la Estrategia Departamental para Respuesta.
 
               .col-md-6
                 figure
@@ -326,48 +327,42 @@ export default {
     // variables de vue
     datosSlyder: [
       {
-        //titulo:
-        //  'Never, never assume that what you have achieved is good enough',
+        titulo: 'PNGRD',
         texto:
-          'La Política Nacional para la Gestión del Riesgo de Desastres (PNGRD), específicamente los artículos 39, 40 y 41 de la Ley 1523 de 2012, establece la hoja de ruta para integrar la gestión del riesgo de desastre en la planificación y desarrollo territorial sostenible mediante los planes de ordenamiento territorial (POT), los planes de ordenamiento de cuencas hidrográficas (POMCA) y la planificación del desarrollo en general en las diferentes escalas territoriales y niveles del gobierno, las cuales, a través de un análisis del riesgo, pueden integrar la gestión en los diagnósticos biofísicos, socioeconómicos y ambientales a fin de considerar así el riesgo de desastres como un punto clave para el desarrollo y ocupación del país, de manera tal que se puedan evitar nuevas condiciones de riesgo.',
+          'La Política Nacional para la Gestión del Riesgo de Desastres (PNGRD), específicamente los artículos 39, 40 y 41 de la Ley 1523 de 2012, establecen el camino para la integración de la gestión del riesgo de desastre en la planificación y desarrollo territorial sostenible mediante los planes de ordenamiento territorial (POT), los planes de ordenamiento de cuencas hidrográficas (POMCA) y la planificación del desarrollo en general en las diferentes escalas territoriales y niveles del gobierno, las cuales, a través de un análisis del riesgo, pueden integrar la gestión en los diagnósticos biofísicos, socioeconómicos y ambientales a fin de considerar así el riesgo de desastres como un punto clave para el desarrollo y ocupación del país, de manera tal que se puedan evitar nuevas condiciones de riesgo.',
         imagen: require('@/assets/curso/temas/img1-slider1-tema1.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        //titulo:
-        //  'Never, never assume that what you have achieved is good enough',
+        titulo: 'Desarrollo seguro para el bienestar ciudadano',
         texto:
           'Por su parte, la integración de la gestión del riesgo en el proceso de planificación nacional, regional y municipal se encuentra en el artículo 40 de la ley y hace énfasis especial en el desarrollo seguro que garantice el bienestar del pueblo colombiano, como lo son las previsiones estipuladas en las leyes 9 de 1989 y 388 de 1997 y que mencionan los mecanismos para inventariar las comunidades cuyos asentamientos se encuentran en condición de riesgo. De igual manera, la ley contempla la identificación y gestión de las zonas vulnerables a amenazas ocasionadas por fenómenos ―ya sean naturales, sociales o la combinación de ambas―, la estructuración de terrenos para procesos de reasentamientos y el uso de las herramientas jurídicas de carácter adquisitivo y de expropiación de bienes inmuebles pertinentes para que las comunidades vulnerables o asentadas en ubicaciones de alto riesgo puedan reubicarse. ',
         imagen: require('@/assets/curso/temas/img2-slider1-tema1.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        //titulo:
-        //  'Never, never assume that what you have achieved is good enough',
+        titulo: 'Ordenamiento y planificación territorial',
         texto:
           'El artículo 41 de la Ley 1523 de 2012 establece la hoja de ruta para la ejecución de las directrices del Plan Nacional de la Gestión del Riesgo de Desastres y estipula que los entes nacionales ―ya sean a nivel regional, departamental, distrital o municipal― deberán cumplir con las orientaciones del ordenamiento y planificación del desarrollo territorial mediante la incorporación útil del proceso socio-ambiental, como es la GRD, en los planes, programas y proyectos, así como garantizar la asignación y correcto uso de los fondos para enfrentar las consecuencias de los eventos naturales.',
         imagen: require('@/assets/curso/temas/img3-slider1-tema1.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        //titulo:
-        //  'Never, never assume that what you have achieved is good enough',
+        titulo: 'Sostenibilidad ambiental y social',
         texto:
           'Por lo tanto, la Gestión del Riesgo de Desastres se orienta a una adecuada planeación territorial cuya característica principal es la sostenibilidad a través de tres principios que incentivan la integración de las diferentes escalas territoriales, como también de los diversos actores que intervienen en este proceso mediante los instrumentos de planificación:',
         imagen: require('@/assets/curso/temas/img4-slider1-tema1.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        //titulo:
-        //  'Never, never assume that what you have achieved is good enough',
+        titulo: 'Minimización de riesgos',
         texto:
           'La finalidad de la inclusión de los procesos de la gestión del riesgo ―así como el conocimiento, la reducción del riesgo y el manejo de desastres en instrumentos de planificación― es minimizar cualquier riesgo que exista en el territorio, así como prevenir la incursión de nuevas condiciones de riesgo. ',
         imagen: require('@/assets/curso/temas/img5-slider1-tema1.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        //titulo:
-        //  'Never, never assume that what you have achieved is good enough',
+        titulo: 'Derechos y desarrollo',
         texto:
           'Por lo tanto, la construcción de un futuro sostenible donde primen la seguridad territorial y los intereses colectivos, así como los derechos de la comunidad, debe darse mediante el desarrollo de los procesos de GRD en la formulación, ejecución, valoración y análisis de las herramientas de desarrollo como lo son los planes territoriales, ya sean de salud, educación, ambiente, infraestructura, recreación, deporte, cultura, economía, desarrollo social y territorial; planes que en últimas contribuyen a la seguridad y el mejoramiento de la vida humana.',
         imagen: require('@/assets/curso/temas/img6-slider1-tema1.png'),
