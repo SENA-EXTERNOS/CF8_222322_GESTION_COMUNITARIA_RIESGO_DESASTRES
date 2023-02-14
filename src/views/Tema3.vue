@@ -80,11 +80,23 @@
               .tarjeta.fondo-tarj-pest-vert-tema3.clr-paleYellow.p-4(titulo="Intervención ante la vulnerabilidad")
                 
                   h4.txt-tarj-pest-vert-tema3 Factor de riesgo - Vulnerabilidad
-                  p.txt-tarj-pest-vert-tema3 Informar y capacitar a la comunidad sobre las condiciones de riesgo presentes y futuras del territorio.
-                  p.txt-tarj-pest-vert-tema3 Procesos de reubicación de infraestructura.
-                  p.txt-tarj-pest-vert-tema3 Gestionar recursos para mejorar la infraestructura de las edificaciones.
-                  p.txt-tarj-pest-vert-tema3 Realizar recuperación de zonas de protección, como rondas hídricas.
-                  p.txt-tarj-pest-vert-tema3 Conformar y mantener comités de gestión comunitaria del riesgo de desastres.
+
+                  ul.lista-ul.txt-tarj-pest-vert-tema3
+                    li 
+                      i.lista-ul__vineta
+                      | Informar y capacitar a la comunidad sobre las condiciones de riesgo presentes y futuras del territorio.
+                    li 
+                      i.lista-ul__vineta
+                      | Procesos de reubicación de infraestructura.
+                    li 
+                      i.lista-ul__vineta
+                      | Gestionar recursos para mejorar la infraestructura de las edificaciones.
+                    li 
+                      i.lista-ul__vineta
+                      | Realizar recuperación de zonas de protección, como rondas hídricas.
+                    li 
+                      i.lista-ul__vineta
+                      | Conformar y mantener comités de gestión comunitaria del riesgo de desastres.
 
 
   
@@ -153,7 +165,7 @@
         
         .row.fondo-medidas-correctivas.bloque-medidas-correctivas
           .col-lg-7
-            p.txt-medidas-correctivas Una vez reconocidas las medidas correctivas, se describen a continuación las medidas prospectivas.
+            p.txt-medidas-correctivas Una vez reconocidas las medidas correctivas, se describen, a continuación, las medidas prospectivas, las cuales se formulan en función de la prevención:
           
           .col-lg-5
   

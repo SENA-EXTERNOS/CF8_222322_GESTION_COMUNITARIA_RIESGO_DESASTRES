@@ -43,18 +43,28 @@
     br
     br
 
-    .row.container.justify-content-around.align-items-center
+    //- .row.container.justify-content-around.align-items-center
 
 
-        .row 
-          .col-lg-12
-              figure
-                  img(src="@/assets/curso/temas/img-PNGRD-tema1.png").img-PNGRD-tema1
+    //-     .row 
+    //-       .col-lg-12
+    //-           figure
+    //-               img(src="@/assets/curso/temas/img-PNGRD-tema1.png").img-PNGRD-tema1
 
-              p.txt-PNGRD-tema1.mb-5.p-1 El documento que marca cómo deben hacerse los procedimientos es el Plan Nacional de Gestión de Riesgo de Desastre de Colombia (PNGRD), el cual convoca a los diversos actores del SNGRD a ejecutar, de forma eficaz, las acciones necesarias para cumplir con el objetivo de la gestión del riesgo. El PNGRD se instituyó a través del Decreto 308 de 2016 y fue actualizado mediante el Decreto 1478 del 3 de agosto de 2022 (Unidad Nacional de Gestión del Riesgo de Desastres - UNGRD, 2022).
-                br
-                br
-                |Este documento, presenta cinco objetivos claves:
+    //-           p.txt-PNGRD-tema1.mb-5.p-1 El documento que marca cómo deben hacerse los procedimientos es el Plan Nacional de Gestión de Riesgo de Desastre de Colombia (PNGRD), el cual convoca a los diversos actores del SNGRD a ejecutar, de forma eficaz, las acciones necesarias para cumplir con el objetivo de la gestión del riesgo. El PNGRD se instituyó a través del Decreto 308 de 2016 y fue actualizado mediante el Decreto 1478 del 3 de agosto de 2022 (Unidad Nacional de Gestión del Riesgo de Desastres - UNGRD, 2022).
+    //-             br
+    //-             br
+    //-             |Este documento, presenta cinco objetivos claves:
+    .contenedor-franja
+      .contenedor-franja__franja
+      .contenedor-franja__contenido
+        .row.justify-content-center
+          .col-lg-4.col-6: img(src='@/assets/curso/temas/c/f1.svg', alt='')
+          .col-2.d-none.d-lg-block: img(src='@/assets/curso/temas/c/f2.svg', alt='')
+          .col-lg-4: p El documento que marca cómo deben hacerse los procedimientos es el Plan Nacional de Gestión de Riesgo de Desastre de Colombia (PNGRD), el cual convoca a los diversos actores del SNGRD a ejecutar, de forma eficaz, las acciones necesarias para cumplir con el objetivo de la gestión del riesgo. El PNGRD se instituyó a través del Decreto 308 de 2016 y fue actualizado mediante el Decreto 1478 del 3 de agosto de 2022 (Unidad Nacional de Gestión del Riesgo de Desastres - UNGRD, 2022).
+            br
+            br
+            |Este documento, presenta cinco objetivos claves:
 
 
 
@@ -140,7 +150,7 @@
                   img(data-aos="flip-left")(src='@/assets/curso/temas/img3-tarj-avat-tema1.png', alt='Texto que describa la imagen').img-tarj-avat-tema1
             .texto-tarj-avatar-tema1
               h3.text-center Tercer objetivo
-              p.text-small Mejorar la preparación frente a los desastres, para una respuesta eficaz, y para obrar mejor en la recuperación, la rehabilitación y la reconstrucción.
+              p.text-small Invertir en la reducción del riesgo de desastres para la resiliencia.
 
         .col-sm-6.col-lg-3
           .tarjeta.fondo-tarj-avatar-tema1.p-4
@@ -150,7 +160,7 @@
                   img(data-aos="flip-left")(src='@/assets/curso/temas/img4-tarj-avat-tema1.png', alt='Texto que describa la imagen').img-tarj-avat-tema1
             .texto-tarj-avatar-tema1
               h3.text-center Cuarto objetivo
-              p.text-small Mejorar la preparación frente a desastres para una respuesta eficaz, y para edificar mejor en la recuperación, la rehabilitación y la reconstrucción. 
+              p.text-small Mejorar la preparación frente a los desastres, para una respuesta eficaz, y para obrar mejor en la recuperación, la rehabilitación y la reconstrucción.  
 
       p.texto-invisible Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam aliquam incidunt reprehenderit eos molestiae, quibusdam nam nulla minus rerum doloribus dignissimos nesciunt, quae magni minima ab soluta id at harum?
     
@@ -217,7 +227,7 @@
               .col-lg-6.mb-4.mb-lg-0
                 .texto-1y3-linea-temporal-tema1
                   h3 1993
-                  p Ley 99 de 1993: hace referencia a la creación del Sistema Nacional Ambiental (SINA).
+                  p Ley 99 de 1993: es aquella que crea el Sistema Nacional Ambiental (SINA).
 
             .row(titulo="1997" subtitulo = "Ley 388 de 1997, conocida como la Ley de Desarrollo Territorial.")
               .col-lg-6
@@ -237,7 +247,7 @@
               .col-lg-6.mb-4.mb-lg-0
                 .texto-1y3-linea-temporal-tema1
                   h3 2012
-                  p Decreto 019 de 2012 o Ley Antitrámites, que dicta las normas para suprimir o reformar regulaciones, procedimientos y trámites innecesarios existentes en la Administración pública.
+                  p Decreto 019 de 2012 o Ley Antitrámites, que dicta las normas para eliminar o modificar las regulaciones, procedimientos y trámites que no son necesarios, pero que aún existen en la Administración Pública.
             
             .row(titulo="2012" subtitulo = "Ley 1523 de 2012, la cual estipula el Sistema Nacional de la Gestión del Riesgo de Desastres y la política nacional para la gestión del riesgo de desastres.")
               .col-lg-6
@@ -247,7 +257,7 @@
               .col-lg-6.mb-4.mb-lg-0
                 .texto-1y4-linea-temporal-tema1
                   h3 2012
-                  p Ley 1523 de 2012, la cual estipula el Sistema Nacional de la Gestión del Riesgo de Desastres y la política nacional para la gestión del riesgo de desastres.
+                  p Ley 1523 de 2012, la cual plantea el Sistema Nacional de la Gestión del Riesgo de Desastres y, además, la Política Nacional para la Gestión del Riesgo de Desastres.
 
     br
     br
@@ -269,7 +279,7 @@
             .row
               .col-md-6.mb-4.mb-md-0
                 h4.text-white Su fundamento
-                p.texto1-slider-simple-tema1 Los POT tienen como fundamento los componentes urbano, rural y general. Estos componentes constituyen la estrategia de distribución territorial de los usos del suelo y de todas aquellass actividades económicas que se pueden asociar a esto. Así mismo, señalan las particularidades de los sistemas estructurantes a partir de un análisis de las mejores opciones relacionadas con la infraestructura de las redes de los servicios públicos y el correcto funcionamiento de los recursos naturales; es decir, aseguran la armonización e integración de la gestión del riesgo y el ordenamiento territorial de los municipios.
+                p.texto1-slider-simple-tema1 Los POT tienen como fundamento los componentes urbano, rural y general. Estos componentes constituyen la estrategia de distribución territorial de los usos del suelo y de todas aquellas actividades económicas que se pueden asociar a esto. Así mismo, señalan las particularidades de los sistemas estructurantes a partir de un análisis de las mejores opciones relacionadas con la infraestructura de las redes de los servicios públicos y el correcto funcionamiento de los recursos naturales; es decir, aseguran la armonización e integración de la gestión del riesgo y el ordenamiento territorial de los municipios.
 
               .col-md-6
                 figure

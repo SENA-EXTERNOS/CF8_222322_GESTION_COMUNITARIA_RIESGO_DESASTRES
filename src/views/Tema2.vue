@@ -65,7 +65,7 @@
             
             .col-lg-8
               AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
-                .row(titulo="Artículo 39 de la Ley 1523 de 2012")
+                .row(titulo="Ley 1523 de 2012 - Primera parte")
                   .col-12
                     p.texto-acordeon-tema1 El artículo 39 de la Ley 1523 de 2012 contempla la integración de la gestión del riesgo de desastres en la planificación territorial y del desarrollo, con base en esto, el Programa de Naciones Unidas para el Desarrollo Colombia (PNUD) y la Unidad Nacional de Gestión del Riesgo de Desastres (UNGRD) consolidaron un instrumento técnico que sirve como directriz para la incorporación de la gestión del riesgo a nivel local: <em>la Guía metodológica para la elaboración de planes departamentales para la gestión del riesgo.</em>
 
@@ -73,13 +73,10 @@
                   .col-12
                     p.texto-acordeon-tema1 En esta directriz se instruye a las instituciones públicas acerca de los lineamientos para la identificación, ejecución y control de las acciones que los entes territoriales hacen en términos de los procesos de gestión del riesgo, teniendo como base la caracterización del territorio, factores y escenarios de riesgo, y actores claves para la gestión del riesgo que orientan la implementación de la Estrategia Departamental para Respuesta (Departamento Administrativo del Sistema de Prevención, Atención y Recuperación de Desastres en Antioquia, 2015). 
 
-                .row(titulo="Estrategias")
+                .row(titulo="Guía metodológica para la formulación y actualización de planes municipales de gestión del riesgo de desastres ")
                   .col-12
-                    p.texto-acordeon-tema1 Factores  y escenarios de riesgo, y actores claves para la gestión del riesgo que orientan la implementación de la Estrategia Departamental para Respuesta (Departamento Administrativo del Sistema de Prevención, Atención y Recuperación de Desastres en Antioquia, 2015). 
+                    p.texto-acordeon-tema1 Así mismo, se cuenta con la Guía metodológica para la formulación y actualización de planes municipales de gestión del riesgo de desastres (PMGRD) diseñada por la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD) en el año 2021.
 
-                .row(titulo="Seguir la estructura de procesos")
-                  .col-12
-                    p.texto-acordeon-tema1 Así mismo, se cuenta con la <em>Guía metodológica para la formulación y actualización de planes municipales de gestión del riesgo de desastres</em> (PMGRD) diseñada por la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD) en el año 2021.
 
             .col-lg-4
               figure(data-aos="zoom-in")
