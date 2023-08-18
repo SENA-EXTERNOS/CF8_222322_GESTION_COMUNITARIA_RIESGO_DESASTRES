@@ -62,16 +62,8 @@
           .col-lg-4.col-6: img(src='@/assets/curso/temas/c/f1.svg', alt='')
           .col-2.d-none.d-lg-block: img(src='@/assets/curso/temas/c/f2.svg', alt='')
           .col-lg-4: p El documento que marca cómo deben hacerse los procedimientos es el Plan Nacional de Gestión de Riesgo de Desastre de Colombia (PNGRD), el cual convoca a los diversos actores del SNGRD a ejecutar, de forma eficaz, las acciones necesarias para cumplir con el objetivo de la gestión del riesgo. El PNGRD se instituyó a través del Decreto 308 de 2016 y fue actualizado mediante el Decreto 1478 del 3 de agosto de 2022 (Unidad Nacional de Gestión del Riesgo de Desastres - UNGRD, 2022).
-            br
-            br
-            |Este documento, presenta cinco objetivos claves:
 
-
-
-    br
-    br
-    br
-
+    p.my-5 Este documento, presenta cinco objetivos claves:
     .tarjeta.p-5(style="background-color: #f6f6f6 ")
       SlyderF(columnas="col-lg-6 col-xl-4").slyder-100
         .tarjeta.p-4(style="background-color: #bededb")
@@ -360,7 +352,7 @@ export default {
       {
         titulo: 'Sostenibilidad ambiental y social',
         texto:
-          'Por lo tanto, la Gestión del Riesgo de Desastres se orienta a una adecuada planeación territorial cuya característica principal es la sostenibilidad a través de tres principios que incentivan la integración de las diferentes escalas territoriales, como también de los diversos actores que intervienen en este proceso mediante los instrumentos de planificación:',
+          'Por lo tanto, la Gestión del Riesgo de Desastres se orienta a una adecuada planeación territorial cuya característica principal es la sostenibilidad a través de tres principios que incentivan la integración de las diferentes escalas territoriales, como también de los diversos actores que intervienen en este proceso mediante los instrumentos de planificación',
         imagen: require('@/assets/curso/temas/img4-slider1-tema1.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
