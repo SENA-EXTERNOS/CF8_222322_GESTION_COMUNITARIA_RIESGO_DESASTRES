@@ -352,7 +352,7 @@ export default {
       {
         titulo: 'Sostenibilidad ambiental y social',
         texto:
-          'Por lo tanto, la Gestión del Riesgo de Desastres se orienta a una adecuada planeación territorial cuya característica principal es la sostenibilidad a través de tres principios que incentivan la integración de las diferentes escalas territoriales, como también de los diversos actores que intervienen en este proceso mediante los instrumentos de planificación',
+          'Por lo tanto, la Gestión del Riesgo de Desastres se orienta a una adecuada planeación territorial cuya característica principal es la sostenibilidad a través de tres principios que incentivan la integración de las diferentes escalas territoriales, como también de los diversos actores que intervienen en este proceso mediante los instrumentos de planificación.',
         imagen: require('@/assets/curso/temas/img4-slider1-tema1.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

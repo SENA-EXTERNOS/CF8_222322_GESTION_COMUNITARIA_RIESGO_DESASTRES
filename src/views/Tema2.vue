@@ -143,7 +143,6 @@
               p ¿El municipio cuenta con una hoja de ruta para el fortalecimiento de sus capacidades municipales?
           
             .tarjeta.fondo-color-tarj-pto-caliente.p-3(x="15%" y="70%" numero="4")
-              .h5.mb-2 titulo
               p ¿La gestión del riesgo de desastres se encuentra integrada en su Plan de Ordenamiento Territorial y en el Plan de Desarrollo Municipal?
 
             .tarjeta.fondo-color-tarj-pto-caliente.p-3(x="37%" y="90%" numero="5")
