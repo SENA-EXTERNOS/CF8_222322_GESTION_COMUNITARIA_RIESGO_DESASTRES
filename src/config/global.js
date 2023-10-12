@@ -125,7 +125,7 @@ export default {
       tema: 'Medidas de reducción de riesgo',
       referencia:
         'Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD). (2021). <em>Marco Estratégico UNGRD 2018 – 2022 y capacidades mínimas territoriales.</em> Bogotá D. C, Colombia.',
-      tipo: 'Página WEB',
+      tipo: 'Página web',
       link: 'http://portal.gestiondelriesgo.gov.co/marcoestrategico/index.html',
     },
   ],
@@ -134,7 +134,7 @@ export default {
     {
       termino: 'Comunicación del riesgo',
       significado:
-        'proceso constante y transversal que se realiza para proveer, compartir y obtener información y comprometer a la comunidad, las instituciones y el sector privado en la gestión del riesgo de desastres.',
+        'proceso constante y transversal que se realiza para proveer, compartir y obtener información y comprometer a la comunidad, las instituciones y el sector privado en la Gestión del Riesgo de Desastres.',
     },
     {
       termino: 'Control de riesgos',
@@ -191,6 +191,8 @@ export default {
     {
       referencia:
         'Departamento Administrativo del Sistema de Prevención, Atención y Recuperación de Desastres en Antioquia - DAPARD. (2015). <em>Plan departamental para la gestión del riesgo de desastres.</em> Antioquia, Colombia.',
+      link:
+        'http://repositorio.gestiondelriesgo.gov.co/bitstream/20.500.11762/20839/1/PDGRD-Antioquia.pdf',
     },
     {
       referencia:
@@ -201,6 +203,8 @@ export default {
     {
       referencia:
         'Unidad Nacional de Gestión del Riesgo de Desastres (UNGRD). (2018). <em>Articulación de instrumentos de planificación para la gestión del riesgo de desastres.</em> ',
+      link:
+        'http://repositorio.gestiondelriesgo.gov.co/bitstream/handle/20.500.11762/20713/Articulacio%cc%81n_Instrumentos_Planificacio%cc%81n2018.pdf?sequence=14&isAllowed=y',
     },
     {
       referencia:
@@ -210,10 +214,14 @@ export default {
     {
       referencia:
         'Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD) & Programa de Naciones Unidas para el Desarrollo Colombia (PNUD). (2014). <em>Guía metodológica para la elaboración de planes departamentales para la gestión del riesgo.</em> Bogotá D. C, Colombia.',
+      link:
+        'http://repositorio.gestiondelriesgo.gov.co/handle/20.500.11762/20871',
     },
     {
       referencia:
         'Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD). (2021). <em>Guía metodológica para la formulación y actualización de planes municipales de gestión del riesgo de desastres</em> - PMGRD. Bogotá D. C, Colombia.  ',
+      link:
+        'http://repositorio.gestiondelriesgo.gov.co/handle/20.500.11762/32750',
     },
     {
       referencia:
@@ -247,6 +255,8 @@ export default {
     {
       referencia:
         'Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD). (2017). <em>Terminología sobre gestión del riesgo de desastres y fenómenos amenazantes.</em> Bogotá D. C, Colombia. ',
+      link:
+        'http://repositorio.gestiondelriesgo.gov.co/bitstream/20.500.11762/20761/2/Terminologia-GRD-2017.pdf',
     },
   ],
   creditos: {

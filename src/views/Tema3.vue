@@ -176,20 +176,17 @@
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0: img(src='@/assets/curso/temas/c/c3.jpg', alt='')
           .col-md-6
-            h4 Primera parte
             p Las medidas prospectivas de reducción del riesgo se diseñan con el objetivo de evitar el surgimiento de nuevas condiciones de riesgo, es decir, elaboran acciones de prevención para impedir que los bienes o elementos que se encuentran expuestos sean afectados por eventos peligrosos. La ejecución de este tipo de medidas busca evitar la creación de medidas correctivas. 
       .py-4.py-md-5(titulo="Segunda  parte")
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0: img(src='@/assets/curso/temas/c/c4.jpg', alt='')
           .col-md-6
-            h4 Segunda  parte
             p Las medidas prospectivas se diseñan y ejecutan mediante la planificación territorial con énfasis en la sostenibilidad ambiental y un ordenamiento territorial seguro. 
       .py-4.py-md-5(titulo="Tercera  parte")
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0: img(src='@/assets/curso/temas/c/c5.jpg', alt='')
           .col-md-6
-            h4 Tercera  parte
-            p Para la prevención del riesgo se cuenta con herramientas fundamentales diseñadas y contempladas desde la planificación territorial, sin dejar de lado temas como la inversión pública, la regulación y especificaciones técnicas de los estudios de prefactibilidad cuyo incidencia se da en la planificación sectorial, estos instrumentos de prevención cuentan con el objetivo de que aspectos como los usos del suelo y la ocupación de esta se realice de manera reglamentada que garantice un desarrollo seguro y sostenible [sic] (Unidad Nacional para la Gestión del Riesgo de Desastres, 2013). 
+            p Para la prevención del riesgo se cuenta con herramientas fundamentales diseñadas y contempladas desde la planificación territorial, sin dejar de lado temas como la inversión pública, la regulación y especificaciones técnicas de los estudios de prefactibilidad cuya incidencia se da en la planificación sectorial, estos instrumentos de prevención cuentan con el objetivo de que aspectos como los usos del suelo y la ocupación de esta se realice de manera reglamentada que garantice un desarrollo seguro y sostenible [sic] (Unidad Nacional para la Gestión del Riesgo de Desastres, 2013). 
     p.mb-5(data-aos='fade-right') Las medias prospectivas se componen de dos líneas de acción:        
     
 
@@ -212,7 +209,7 @@
                   img(src='@/assets/curso/temas/img2-tarj-conect-tema3.png', alt='Texto que describa la imagen')
               
             h4.text-center Segunda línea de acción
-            p.text-center Gestión del riesgo de desastres asociado a fenómenos hidrometeorológicos, hidroclimáticos extremos, variabilidad climática y cambio climático.
+            p.text-center Gestión del Riesgo de Desastres asociado a fenómenos hidrometeorológicos, hidroclimáticos extremos, variabilidad climática y cambio climático.
 
     p.mb-5(data-aos='fade-right') En relación con la primera línea de acción, a continuación, se enuncian los instrumentos de planificación:
     .row.container.tarjeta.tarjeta--blanca.p-2.p-md-3.fondo-pto-caliente-tema3

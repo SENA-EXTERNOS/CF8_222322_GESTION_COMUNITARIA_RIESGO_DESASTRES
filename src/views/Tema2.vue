@@ -25,7 +25,7 @@
                 p.text-tarj1-color.p-3 Para desarrollar la gestión y ejecutar medidas de reducción de riesgo de desastres, se requiere la selección de herramientas para la planificación.
                   br
                   br
-                  |Esta selección habrá de cumplir con criterios y mecanismos establecidos, que aseguren la efectividad, la pertinencia y la oportunidad en los procesos.
+                  |Esta selección debe cumplir con criterios y mecanismos establecidos, que aseguren la efectividad, la pertinencia y la oportunidad en los procesos.
                   br
                   br
                   |Una vez reconocidos los instrumentos de planificación, le invitamos a ver en el siguiente video, elementos a considerar sobre los escenarios de riesgo.
@@ -67,15 +67,15 @@
               AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
                 .row(titulo="Ley 1523 de 2012 - Primera parte")
                   .col-12
-                    p.texto-acordeon-tema1 El artículo 39 de la Ley 1523 de 2012 contempla la integración de la gestión del riesgo de desastres en la planificación territorial y del desarrollo, con base en esto, el Programa de Naciones Unidas para el Desarrollo Colombia (PNUD) y la Unidad Nacional de Gestión del Riesgo de Desastres (UNGRD) consolidaron un instrumento técnico que sirve como directriz para la incorporación de la gestión del riesgo a nivel local: <em>la Guía metodológica para la elaboración de planes departamentales para la gestión del riesgo.</em>
+                    p.texto-acordeon-tema1 El artículo 39 de la Ley 1523 de 2012 contempla la integración de la Gestión del Riesgo de Desastres en la planificación territorial y del desarrollo, con base en esto, el Programa de Naciones Unidas para el Desarrollo Colombia (PNUD) y la Unidad Nacional de Gestión del Riesgo de Desastres (UNGRD) consolidaron un instrumento técnico que sirve como directriz para la incorporación de la gestión del riesgo a nivel local: <em>la Guía metodológica para la elaboración de planes departamentales para la gestión del riesgo.</em>
 
                 .row(titulo="Ley 1523 de 2012 - Segunda parte")
                   .col-12
                     p.texto-acordeon-tema1 En esta directriz se instruye a las instituciones públicas acerca de los lineamientos para la identificación, ejecución y control de las acciones que los entes territoriales hacen en términos de los procesos de gestión del riesgo, teniendo como base la caracterización del territorio, factores y escenarios de riesgo, y actores claves para la gestión del riesgo que orientan la implementación de la Estrategia Departamental para Respuesta (Departamento Administrativo del Sistema de Prevención, Atención y Recuperación de Desastres en Antioquia, 2015). 
 
-                .row(titulo="Guía metodológica para la formulación y actualización de planes municipales de gestión del riesgo de desastres ")
+                .row(titulo="Guía metodológica para la formulación y actualización de planes municipales de Gestión del Riesgo de Desastres ")
                   .col-12
-                    p.texto-acordeon-tema1 Así mismo, se cuenta con la Guía metodológica para la formulación y actualización de planes municipales de gestión del riesgo de desastres (PMGRD) diseñada por la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD) en el año 2021.
+                    p.texto-acordeon-tema1 Así mismo, se cuenta con la Guía metodológica para la formulación y actualización de planes municipales de Gestión del Riesgo de Desastres (PMGRD) diseñada por la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD) en el año 2021.
 
 
             .col-lg-4
@@ -89,7 +89,7 @@
               :style="{'background-image':`url(${require('@/assets/curso/temas/c/c2.jpg')})`}"
             )
             .bloque-texto-g__texto.p-4
-              p.mb-0 De acuerdo con la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD), en su publicación Guía metodológica para la formulación y actualización de planes municipales de gestión del riesgo de desastres, se articulan seis pasos fundamentales que se deben de tener en cuenta al momento de integrar los procesos de gestión del riesgo, en la planificación territorial (Unidad Nacional para la Gestión del Riesgo de Desastres, 2021). 
+              p.mb-0 De acuerdo con la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD), en su publicación Guía metodológica para la formulación y actualización de planes municipales de Gestión del Riesgo de Desastres, se articulan seis pasos fundamentales que se deben de tener en cuenta al momento de integrar los procesos de gestión del riesgo, en la planificación territorial (Unidad Nacional para la Gestión del Riesgo de Desastres, 2021). 
                 br
                 br
                 |Estos seis pasos son:
@@ -107,7 +107,7 @@
 
               p(numero="2" titulo="Segundo paso") Caracterización general del departamento y su entorno. Se realiza en función de dos componentes principales: recopilación de la información y la validación y análisis de la información. Estos dan como resultado el conocimiento del territorio en términos geográficos, socioculturales, económicos, de antecedentes históricos y físicoambientales (fisiografía, geología, geomorfología, hidrografía, variables hidroclimatológicas y zonificación ecológica).
 
-              p(numero="3" titulo="Tercer paso") Desarrollar el autodiagnóstico de acuerdo con la gestión del riesgo de desastres (capacidades). Se lleva a cabo mediante las capacidades mínimas establecidas en el Marco Estratégico para la Gestión del Riesgo de Desastres.
+              p(numero="3" titulo="Tercer paso") Desarrollar el autodiagnóstico de acuerdo con la Gestión del Riesgo de Desastres (capacidades). Se lleva a cabo mediante las capacidades mínimas establecidas en el Marco Estratégico para la Gestión del Riesgo de Desastres.
 
               p(numero="4" titulo="Cuarto paso") Identificación de actores claves. Llevar a cabo un análisis y recopilación de los actores relacionados con los procesos y subprocesos de la gestión del riesgo en los sectores económico, sociocultural, político-administrativo y de índole internacional.
 
@@ -136,22 +136,22 @@
 
             .tarjeta.fondo-color-tarj-pto-caliente.p-3(x="11%" y="30%" numero="2")
               //.h5.mb-2 titulo
-              p ¿Cuál es el estado actual de la oficina municipal de gestión del riesgo de desastres?
+              p ¿Cuál es el estado actual de la oficina municipal de Gestión del Riesgo de Desastres?
 
             .tarjeta.fondo-color-tarj-pto-caliente.p-3(x="11%" y="50%" numero="3")
               //.h5.mb-2 titulo
               p ¿El municipio cuenta con una hoja de ruta para el fortalecimiento de sus capacidades municipales?
           
             .tarjeta.fondo-color-tarj-pto-caliente.p-3(x="15%" y="70%" numero="4")
-              p ¿La gestión del riesgo de desastres se encuentra integrada en su Plan de Ordenamiento Territorial y en el Plan de Desarrollo Municipal?
+              p ¿La Gestión del Riesgo de Desastres se encuentra integrada en su Plan de Ordenamiento Territorial y en el Plan de Desarrollo Municipal?
 
             .tarjeta.fondo-color-tarj-pto-caliente.p-3(x="37%" y="90%" numero="5")
               //.h5.mb-2 titulo
-              p ¿El municipio cuenta con una estrategia financiera para la implementación de la gestión del riesgo de desastres?
+              p ¿El municipio cuenta con una estrategia financiera para la implementación de la Gestión del Riesgo de Desastres?
 
             .tarjeta.fondo-color-tarj-pto-caliente.p-3(x="83%" y="70%" numero="6")
               //.h5.mb-2 titulo
-              p ¿El municipio cuenta con un sistema de información de gestión del riesgo de desastres para la toma de decisiones?
+              p ¿El municipio cuenta con un sistema de información de Gestión del Riesgo de Desastres para la toma de decisiones?
           
             .tarjeta.fondo-color-tarj-pto-caliente.p-3(x="89%" y="50%" numero="7")
               //.h5.mb-2 titulo
@@ -159,11 +159,11 @@
 
             .tarjeta.fondo-color-tarj-pto-caliente.p-3(x="89%" y="30%" numero="8")
               //.h5.mb-2 titulo
-              p ¿Cuáles son las capacidades de respuesta y recuperación posdesastre con las que cuenta el municipio?
+              p ¿Cuáles son las capacidades de respuesta y recuperación post-desastre con las que cuenta el municipio?
 
             .tarjeta.fondo-color-tarj-pto-caliente.p-3(x="82%" y="10%" numero="9")
               //.h5.mb-2 titulo
-              p ¿El municipio cuenta con la participación activa de la comunidad y del sector privado en la gestión del riesgo de desastres?
+              p ¿El municipio cuenta con la participación activa de la comunidad y del sector privado en la Gestión del Riesgo de Desastres?
         
         p.txt-inf-pto-caliente-tema2 En lo relacionado con el paso 6, identificación y caracterización de escenarios de riesgo, se describen a continuación ejemplos de escenarios de riesgo, a partir de algunos criterios definidos:
 
@@ -295,7 +295,7 @@
           ul.lista-ul
             li 
               i.lista-ul__vineta
-              | Instituciones educativos
+              | Instituciones educativas
             li 
               i.lista-ul__vineta
               | Unidades militares
@@ -325,7 +325,7 @@
           ul.lista-ul
             li 
               i.lista-ul__vineta
-              | Sars covid-19
+              | SARS COVID-19
             li 
               i.lista-ul__vineta
               | Túneles

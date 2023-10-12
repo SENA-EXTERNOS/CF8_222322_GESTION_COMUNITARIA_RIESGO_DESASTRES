@@ -132,7 +132,7 @@
                   img(data-aos="flip-left")(src='@/assets/curso/temas/img2-tarj-avat-tema1.png', alt='Texto que describa la imagen').img-tarj-avat-tema1
             .texto-tarj-avatar-tema1
               h3.text-center Segundo objetivo
-              p.text-small Fortalecer la gestión del riesgo de desastres, para manejar mejor el riesgo de los mismos.
+              p.text-small Fortalecer la Gestión del Riesgo de Desastres, para manejar mejor el riesgo de los mismos.
 
         .col-sm-6.col-lg-3.mb-4.mb-sm-0
           .tarjeta.fondo-tarj-avatar-tema1.p-4
@@ -182,7 +182,7 @@
 
                 .row(titulo="Favorecen el destino seguro de fondos y recursos")
                   .col-12
-                    p.texto-acordeon-tema1 La articulación de estas herramientas con el Plan Nacional de Gestión del Riesgo de Desastres (PMGRD), permite que los fondos y los recursos económicos se destinen de manera segura. Además, gracias a esta unión, se pueden diseñar y alcanzar metas claras y concretas. Finalmente, lo anterior posibilita caracterizar los escenarios de riesgo que existen a nivel nacional y, por lo tanto, se pueden plantear actividades coordinadas y acciones, que permitan una gestión positiva de estos. 
+                    p.texto-acordeon-tema1 La articulación de estas herramientas con el Plan Nacional de Gestión del Riesgo de Desastres (PNGRD), permite que los fondos y los recursos económicos se destinen de manera segura. Además, gracias a esta unión, se pueden diseñar y alcanzar metas claras y concretas. Finalmente, lo anterior posibilita caracterizar los escenarios de riesgo que existen a nivel nacional y, por lo tanto, se pueden plantear actividades coordinadas y acciones, que permitan una gestión positiva de estos. 
 
                 .row(titulo="Vinculan al territorio con la institucionalidad")
                   .col-12
@@ -259,7 +259,7 @@
 
       .row 
         .col-lg-10.cajol-color-simple-tema1.p-4
-          p El reconocimiento territorial y, especialmente, el del espacio geográfico, constituye uno de los elementos fundamentales que pueden utilizarse como insumos, durante el proceso de planeación social que se realiza de forma local, es decir, en los planes de ordenamiento territorial.
+          p El reconocimiento territorial y, especialmente, el del espacio geográfico, constituye uno de los elementos fundamentales que pueden utilizarse como insumos, durante el proceso de planeación social que se realiza de forma local, es decir, en los Planes de Ordenamiento Territorial.
 
     p.mb-5(data-aos='fade-right') Acerca de los POT, recuerde que:
 
@@ -295,7 +295,7 @@
 
               .col-md-6.mb-4.mb-md-0
                 h4.text-white Medios de ejecución de acciones y estrategias
-                p.texto3-slider-simple-tema1 A nivel de territorial es posible afirmar que los Planes de Desarrollo Municipal (PDM) son aquellos textos en donde se establece cuáles son los medios para la ejecución de acciones y estrategias planteadas desde los diferentes instrumentos de planeación, en donde se incluye el Plan Nacional de Gestión del Riesgo de Desastres (PNGRD), ya que se utilizan los fondos de nivel nacional de manera directa en el espacio geográfico regido por estos planes. Si se va a hablar de la integración y la articulación, se debe hacer un fortalecimiento de la planeación territorial, a través de la implementación de todas las capacidades administrativas con el objetivo de materializar los procesos de gestión del riesgo, conocimiento del riesgo, reducción del riesgo y manejo de desastres en las políticas, los objetivos y las medidas correctivas, prospectivas, estructurales y no estructurales, de tal manera que sea posible garantizar la efectividad en la ejecución de los recursos.
+                p.texto3-slider-simple-tema1 A nivel territorial es posible afirmar que los Planes de Desarrollo Municipal (PDM) son aquellos textos en donde se establece cuáles son los medios para la ejecución de acciones y estrategias planteadas desde los diferentes instrumentos de planeación, en donde se incluye el Plan Nacional de Gestión del Riesgo de Desastres (PNGRD), ya que se utilizan los fondos de nivel nacional de manera directa en el espacio geográfico regido por estos planes. Si se va a hablar de la integración y la articulación, se debe hacer un fortalecimiento de la planeación territorial, a través de la implementación de todas las capacidades administrativas con el objetivo de materializar los procesos de gestión del riesgo, conocimiento del riesgo, reducción del riesgo y manejo de desastres en las políticas, los objetivos y las medidas correctivas, prospectivas, estructurales y no estructurales, de tal manera que sea posible garantizar la efectividad en la ejecución de los recursos.
 
               .col-md-6
                 figure
@@ -306,7 +306,7 @@
             .row.justify-content-center.align-items-center.my-lg-4
 
               .col-md-6.mb-4.mb-md-0
-                h4.text-white A nivel departamental…
+                h4.text-white A nivel departamental
                 p.texto4-slider-simple-tema1 De este modo, se cuenta también con el Plan Departamental de Gestión del Riesgo (PDGRD) donde se busca identificar, ejecutar y controlar las acciones que los entes territoriales hacen en términos de los procesos de gestión del riesgo. Este plan requiere caracterizar el territorio, los factores, los escenarios de riesgo. Además, también necesita conocer cuáles son los actores cruciales para la gestión del riesgo, los cuales guían la implementación de la Estrategia Departamental para Respuesta.
 
               .col-md-6
@@ -331,7 +331,7 @@ export default {
       {
         titulo: 'PNGRD',
         texto:
-          'La Política Nacional para la Gestión del Riesgo de Desastres (PNGRD), específicamente los artículos 39, 40 y 41 de la Ley 1523 de 2012, establecen el camino para la integración de la gestión del riesgo de desastre en la planificación y desarrollo territorial sostenible mediante los planes de ordenamiento territorial (POT), los planes de ordenamiento de cuencas hidrográficas (POMCA) y la planificación del desarrollo en general en las diferentes escalas territoriales y niveles del gobierno, las cuales, a través de un análisis del riesgo, pueden integrar la gestión en los diagnósticos biofísicos, socioeconómicos y ambientales a fin de considerar así el riesgo de desastres como un punto clave para el desarrollo y ocupación del país, de manera tal que se puedan evitar nuevas condiciones de riesgo.',
+          'La Política Nacional para la Gestión del Riesgo de Desastres (PNGRD), específicamente los artículos 39, 40 y 41 de la Ley 1523 de 2012, establecen el camino para la integración de la Gestión del Riesgo de Desastre en la planificación y desarrollo territorial sostenible mediante los Planes de Ordenamiento Territorial (POT), los Planes de Ordenamiento de Cuencas Hidrográficas (POMCA) y la planificación del desarrollo en general en las diferentes escalas territoriales y niveles del gobierno, las cuales, a través de un análisis del riesgo, pueden integrar la gestión en los diagnósticos biofísicos, socioeconómicos y ambientales a fin de considerar así el riesgo de desastres como un punto clave para el desarrollo y ocupación del país, de manera tal que se puedan evitar nuevas condiciones de riesgo.',
         imagen: require('@/assets/curso/temas/img1-slider1-tema1.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
@@ -345,7 +345,7 @@ export default {
       {
         titulo: 'Ordenamiento y planificación territorial',
         texto:
-          'El artículo 41 de la Ley 1523 de 2012 establece la hoja de ruta para la ejecución de las directrices del Plan Nacional de la Gestión del Riesgo de Desastres y estipula que los entes nacionales ―ya sean a nivel regional, departamental, distrital o municipal― deberán cumplir con las orientaciones del ordenamiento y planificación del desarrollo territorial mediante la incorporación útil del proceso socio-ambiental, como es la GRD, en los planes, programas y proyectos, así como garantizar la asignación y correcto uso de los fondos para enfrentar las consecuencias de los eventos naturales.',
+          'El artículo 41 de la Ley 1523 de 2012 establece la hoja de ruta para la ejecución de las directrices del Plan Nacional de la Gestión del Riesgo de Desastres y estipula que los entes nacionales ―ya sean a nivel regional, departamental, distrital o municipal― deberán cumplir con las orientaciones del ordenamiento y planificación del desarrollo territorial mediante la incorporación útil del proceso socioambiental, como es la GRD, en los planes, programas y proyectos, así como garantizar la asignación y correcto uso de los fondos para enfrentar las consecuencias de los eventos naturales.',
         imagen: require('@/assets/curso/temas/img3-slider1-tema1.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
