@@ -66,7 +66,7 @@
     p.my-5 Este documento, presenta cinco objetivos claves:
     .tarjeta.p-5(style="background-color: #f6f6f6 ")
       SlyderF(columnas="col-lg-6 col-xl-4").slyder-100
-        .tarjeta.p-4(style="background-color: #bededb")
+        .tarjeta.h-100.p-4(style="background-color: #bededb")
           .row.justify-content-center.mb-3
             .col-8
               img(data-aos="flip-left")(src='@/assets/curso/temas/img1-tarj-conect-tema1.png' alt='AvatarTop')
@@ -74,14 +74,14 @@
           p.text-center #[b Mejorar] el proceso de conocimiento del riesgo de desastres en Colombia.
           p.texto-invisible Lorem ipsum dolor sit amet consectetur adipisicing elit.
 
-        .tarjeta.p-4(style="background-color: #bededb")
+        .tarjeta.h-100.p-4(style="background-color: #bededb")
           .row.justify-content-center.mb-3
             .col-8
               img(data-aos="flip-left")(src='@/assets/curso/temas/img2-tarj-conect-tema1.png' alt='AvatarTop')
           //h2.text-center 2
           p.text-center #[b Minimizar] la materialización de condiciones de riesgo futuras en la planeación y desarrollo territorial, sectorial y ambiental sostenible.
           p.texto-invisible Lorem ipsum dolor sit 
-        .tarjeta.p-4(style="background-color: #bededb")
+        .tarjeta.h-100.p-4(style="background-color: #bededb")
           .row.justify-content-center.mb-3
             .col-8
               img(data-aos="flip-left")(src='@/assets/curso/temas/img3-tarj-conect-tema1.png' alt='AvatarTop')
@@ -89,7 +89,7 @@
           p.text-center #[b Reducir] las condiciones de riesgo de desastres existentes.
           p.texto-invisible Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis rem 
 
-        .tarjeta.p-4(style="background-color: #bededb")
+        .tarjeta.h-100.p-4(style="background-color: #bededb")
           .row.justify-content-center.mb-3
             .col-8
               img(data-aos="flip-left")(src='@/assets/curso/temas/img4-tarj-conect-tema1.png' alt='AvatarTop')
@@ -97,7 +97,7 @@
           p.text-center #[b Garantizar] un oportuno, eficaz y adecuado manejo de desastres. 
           p.texto-invisible Lorem ipsum dolor sit amet consectetur adipisicing elit.adipisicing elit.
 
-        .tarjeta.p-4(style="background-color: #bededb")
+        .tarjeta.h-100.p-4(style="background-color: #bededb")
           .row.justify-content-center.mb-3
             .col-8
               img(data-aos="flip-left")(src='@/assets/curso/temas/img5-tarj-conect-tema1.png' alt='AvatarTop')

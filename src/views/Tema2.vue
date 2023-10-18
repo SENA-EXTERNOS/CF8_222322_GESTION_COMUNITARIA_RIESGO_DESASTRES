@@ -73,9 +73,9 @@
                   .col-12
                     p.texto-acordeon-tema1 En esta directriz se instruye a las instituciones públicas acerca de los lineamientos para la identificación, ejecución y control de las acciones que los entes territoriales hacen en términos de los procesos de gestión del riesgo, teniendo como base la caracterización del territorio, factores y escenarios de riesgo, y actores claves para la gestión del riesgo que orientan la implementación de la Estrategia Departamental para Respuesta (Departamento Administrativo del Sistema de Prevención, Atención y Recuperación de Desastres en Antioquia, 2015). 
 
-                .row(titulo="Guía metodológica para la formulación y actualización de planes municipales de Gestión del Riesgo de Desastres ")
+                .row(titulo="Guía metodológica para la formulación y actualización de Planes Municipales de Gestión del Riesgo de Desastres ")
                   .col-12
-                    p.texto-acordeon-tema1 Así mismo, se cuenta con la Guía metodológica para la formulación y actualización de planes municipales de Gestión del Riesgo de Desastres (PMGRD) diseñada por la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD) en el año 2021.
+                    p.texto-acordeon-tema1 Así mismo, se cuenta con la Guía metodológica para la formulación y actualización de Planes Municipales de Gestión del Riesgo de Desastres (PMGRD) diseñada por la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD) en el año 2021.
 
 
             .col-lg-4
@@ -89,7 +89,7 @@
               :style="{'background-image':`url(${require('@/assets/curso/temas/c/c2.jpg')})`}"
             )
             .bloque-texto-g__texto.p-4
-              p.mb-0 De acuerdo con la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD), en su publicación Guía metodológica para la formulación y actualización de planes municipales de Gestión del Riesgo de Desastres, se articulan seis pasos fundamentales que se deben de tener en cuenta al momento de integrar los procesos de gestión del riesgo, en la planificación territorial (Unidad Nacional para la Gestión del Riesgo de Desastres, 2021). 
+              p.mb-0 De acuerdo con la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD), en su publicación Guía metodológica para la formulación y actualización de Planes Municipales de Gestión del Riesgo de Desastres, se articulan seis pasos fundamentales que se deben de tener en cuenta al momento de integrar los procesos de gestión del riesgo, en la planificación territorial (Unidad Nacional para la Gestión del Riesgo de Desastres, 2021). 
                 br
                 br
                 |Estos seis pasos son:
